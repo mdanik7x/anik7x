@@ -18,9 +18,3 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: IMRAN-BOT
-        run: npm start
